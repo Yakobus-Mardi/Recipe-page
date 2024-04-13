@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+:root {
+  --ff-heading: "Young Serif", serif;
+  --ff-paragraph: "Outfit", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: hsl(30 54% 90%);
+  font-family: var(--ff-paragraph);
+  color: hsl(30 10% 34%);
+  display: grid;
+  place-items: center;
+  padding-block: 1.5rem;
+}
+
+h1 {
+  color: hsl(24 5% 18%);
+  font-family: var(--ff-heading);
+  font-size: 2rem;
+  margin-bottom: 1.1rem;
+}
+
+h2 {
+  color: hsl(14 45% 36%);
+  font-family: var(--ff-heading);
+  margin-block: 1rem;
+}
+
+section {
+  margin-block: 2rem;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
+  border-radius: 1rem;
+}
+
+.wrapper {
+  max-width: 700px;
+  background-color: hsl(0 0% 100%);
+  padding: 1.8rem;
+  border-radius: 1rem;
+}
+
+.prep-time {
+  background-color: hsl(30 54% 90%);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  margin-block: 1.2rem;
+
+  & p {
+    color: hsl(332 51% 32%);
+    font-weight: 600;
+  }
+}
+
+ul,
+ol {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+li {
+  line-height: 1.8;
+  padding-left: 0.875rem;
+}
+
+li::marker {
+  color: hsl(332 51% 32%);
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 600;
+  color: hsl(24 5% 18%);
+}
+
+.nutrition-table table {
+  width: 100%;
+  border-collapse: collapse;
+
+  & caption {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+
+  & tr:not(:last-child) {
+    border-bottom: 1px solid hsl(30 18% 87%);
+  }
+
+  & th {
+    text-align: left;
+    font-weight: 400;
+    line-height: 150%;
+    padding: 12px 0 12px 32px;
+  }
+
+  & td {
+    font-weight: 700;
+    color: hsl(332 51% 32%);
+  }
+}
+
+/* Media query */
+@media (max-width: 480px) {
+  body {
+    padding-block: 0;
+    font-size: 1.3rem;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  section {
+    margin: 1.2rem;
+  }
+
+  .wrapper {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .main-image img {
+    border-radius: 0;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
