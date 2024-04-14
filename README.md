@@ -19,8 +19,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub](https://github.com/Yakobus-Mardi/Recipe-page)
+- Live Site URL: [live site URL](https://yakobus-mardi.github.io/Recipe-page/)
 
 ## My process
 
@@ -31,5 +31,5 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- X - [@yourusername](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Yakobus-Mardi](https://www.frontendmentor.io/profile/Yakobus-Mardi)
+- X - [@fincodewiz](https://twitter.com/fincodewiz)
